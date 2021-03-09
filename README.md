@@ -24,7 +24,7 @@ cd HelloTests
 docker build . -t hello
 docker run -it -p 8080:8080 hello  # After this command, the appliaction server should be running.
 
-Now open a separate terminal window, navigate again to  and type:
+Now open a separate terminal window and type:
 cd HelloTests
 mvn clean test
 ```

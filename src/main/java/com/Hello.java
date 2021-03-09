@@ -10,7 +10,7 @@ public class Hello {
 
   public static final String NAME = randomAlphabetic(10);
 
-  public static void testHelloNameEmpty(String name) {
+  public static void testHelloName(String name) {
     RestAssured.port = 8080;
     when()
             .get(name)

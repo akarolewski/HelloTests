@@ -7,7 +7,7 @@ import static com.Hello.testHelloNameEmpty;
 public class HelloTests {
 
   @Test
-  public void helloChineseTests() {
+  public void helloChineseTest() {
     testHelloName("字");
   }
 
